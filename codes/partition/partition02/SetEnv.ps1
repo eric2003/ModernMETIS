@@ -1,5 +1,3 @@
-Write-Output "hello"
-Write-Output "Env:windir = $Env:windir"
 $Env:METIS_ROOT="C:/METIS/METIS-VS2022-STATIC"
 $Env:METIS_HOME_INC="$Env:METIS_ROOT/include"
 $Env:METIS_HOME_LIB="$Env:METIS_ROOT/lib/metis.lib"

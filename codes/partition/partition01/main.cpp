@@ -58,9 +58,6 @@ int main(int argc, char *argv[])
 
         while ( true ) {
             int edge = std::stoi(line, &pos);
-            line = line.substr(pos);
-            if ( line == "" )
-                break; /* End of line */
  
             if (edge < 1 || edge > nvtxs)
             {
@@ -80,6 +77,9 @@ int main(int argc, char *argv[])
             adjncy[k] = edge - 1;
             adjwgt[k] = ewgt;
             k++;
+            line = line.substr(pos);
+            if (line == "")
+                break; /* End of line */            
         }
         xadj[i + 1] = k;
     }

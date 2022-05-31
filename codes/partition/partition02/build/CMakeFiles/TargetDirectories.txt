@@ -1,0 +1,3 @@
+D:/work/metis_work/ModernMETIS/codes/partition/partition02/build/CMakeFiles/testprj.dir
+D:/work/metis_work/ModernMETIS/codes/partition/partition02/build/CMakeFiles/ALL_BUILD.dir
+D:/work/metis_work/ModernMETIS/codes/partition/partition02/build/CMakeFiles/ZERO_CHECK.dir
